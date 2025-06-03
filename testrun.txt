@@ -1,0 +1,190 @@
++-+-+-+-+-+-+ N = 10 +-+-+-+-+-+-+
+
+********** MyArrayList **********
+Insert @start: 0.0099 ms
+Insert @end: 0.0057 ms
+Insert @random: 0.0063 ms
+Remove @ Start: 0.012 ms
+Remove @end: 0.0067 ms
+Remove @random: 0.0092 ms
+Remove byvalue: 0.0257 ms
+
+********** ArrayList **********
+Insert @start: 0.0065 ms
+Insert @end: 0.0038 ms
+Insert @random: 0.0158 ms
+Remove @start: 0.0123 ms
+Remove @end: 0.0457 ms
+Remove @random: 0.0105 ms
+Remove byvalue: 0.0167 ms
+
+********** MyLinkedList **********
+Insert @start: 0.0081 ms
+Insert @end: 0.0043 ms
+Insert @random: 0.0162 ms
+Remove @start: 0.0142 ms
+Remove @end: 0.0193 ms
+Remove @random: 0.0192 ms
+Remove byvalue: 0.0094 ms
+
+********** LinkedList **********
+Insert @start: 0.0772 ms
+Insert @end: 0.0022 ms
+Insert @random: 0.0043 ms
+Remove @start: 0.0074 ms
+Remove @end: 0.0036 ms
+Remove @random: 0.0041 ms
+Remove byvalue: 0.0089 ms
+
++-+-+-+-+-+-+ N = 100 +-+-+-+-+-+-+
+
+********** MyArrayList **********
+Insert @start: 0.0878 ms
+Insert @end: 0.0084 ms
+Insert @random: 0.0525 ms
+Remove @ Start: 0.1865 ms
+Remove @end: 0.0333 ms
+Remove @random: 0.067 ms
+Remove byvalue: 0.2083 ms
+
+********** ArrayList **********
+Insert @start: 0.0197 ms
+Insert @end: 0.0048 ms
+Insert @random: 0.0169 ms
+Remove @start: 0.0191 ms
+Remove @end: 0.0215 ms
+Remove @random: 0.0247 ms
+Remove byvalue: 0.1203 ms
+
+********** MyLinkedList **********
+Insert @start: 0.0143 ms
+Insert @end: 0.0131 ms
+Insert @random: 0.0268 ms
+Remove @start: 0.019 ms
+Remove @end: 0.0321 ms
+Remove @random: 0.033 ms
+Remove byvalue: 0.1408 ms
+
+********** LinkedList **********
+Insert @start: 0.0171 ms
+Insert @end: 0.014 ms
+Insert @random: 0.0314 ms
+Remove @start: 0.0293 ms
+Remove @end: 0.0264 ms
+Remove @random: 0.039 ms
+Remove byvalue: 0.1378 ms
+
++-+-+-+-+-+-+ N = 1000 +-+-+-+-+-+-+
+
+********** MyArrayList **********
+Insert @start: 1.4239 ms
+Insert @end: 0.0491 ms
+Insert @random: 0.7621 ms
+Remove @ Start: 1.3846 ms
+Remove @end: 0.0782 ms
+Remove @random: 0.7682 ms
+Remove byvalue: 3.6952 ms
+
+********** ArrayList **********
+Insert @start: 0.2415 ms
+Insert @end: 0.0288 ms
+Insert @random: 0.182 ms
+Remove @start: 0.2337 ms
+Remove @end: 0.0726 ms
+Remove @random: 0.2008 ms
+Remove byvalue: 2.0402 ms
+
+********** MyLinkedList **********
+Insert @start: 0.0756 ms
+Insert @end: 0.0337 ms
+Insert @random: 0.2974 ms
+Remove @start: 0.0848 ms
+Remove @end: 0.0868 ms
+Remove @random: 0.2682 ms
+Remove byvalue: 3.1235 ms
+
+********** LinkedList **********
+Insert @start: 0.1371 ms
+Insert @end: 0.0362 ms
+Insert @random: 0.3303 ms
+Remove @start: 0.1464 ms
+Remove @end: 0.1318 ms
+Remove @random: 0.2948 ms
+Remove byvalue: 2.3514 ms
+
++-+-+-+-+-+-+ N = 10000 +-+-+-+-+-+-+
+
+********** MyArrayList **********
+Insert @start: 71.0646 ms
+Insert @end: 0.3004 ms
+Insert @random: 31.3094 ms
+Remove @ Start: 63.6254 ms
+Remove @end: 0.484 ms
+Remove @random: 27.3985 ms
+Remove byvalue: 52.1282 ms
+
+********** ArrayList **********
+Insert @start: 4.8101 ms
+Insert @end: 0.268 ms
+Insert @random: 2.8994 ms
+Remove @start: 4.0487 ms
+Remove @end: 0.4506 ms
+Remove @random: 2.687 ms
+Remove byvalue: 41.8921 ms
+
+********** MyLinkedList **********
+Insert @start: 0.4298 ms
+Insert @end: 0.3202 ms
+Insert @random: 40.2501 ms
+Remove @start: 0.4176 ms
+Remove @end: 0.4084 ms
+Remove @random: 24.5803 ms
+Remove byvalue: 98.0631 ms
+
+********** LinkedList **********
+Insert @start: 0.3998 ms
+Insert @end: 0.3221 ms
+Insert @random: 33.2934 ms
+Remove @start: 0.8852 ms
+Remove @end: 1.239 ms
+Remove @random: 27.7853 ms
+Remove byvalue: 143.9263 ms
+
++-+-+-+-+-+-+ N = 100000 +-+-+-+-+-+-+
+
+********** MyArrayList **********
+Insert @start: 4629.9538 ms
+Insert @end: 2.2218 ms
+Insert @random: 5826.2199 ms
+Remove @ Start: 7185.7621 ms
+Remove @end: 2.4724 ms
+Remove @random: 3666.5743 ms
+Remove byvalue: 6245.656 ms
+
+********** ArrayList **********
+Insert @start: 373.0037 ms
+Insert @end: 2.3753 ms
+Insert @random: 182.7437 ms
+Remove @start: 415.645 ms
+Remove @end: 4.7091 ms
+Remove @random: 204.6827 ms
+Remove byvalue: 4365.9823 ms
+
+********** MyLinkedList **********
+Insert @start: 3.7237 ms
+Insert @end: 6.6313 ms
+Insert @random: 12486.664 ms
+Remove @start: 2.9864 ms
+Remove @end: 2.5767 ms
+Remove @random: 3017.6563 ms
+Remove byvalue: 11600.3453 ms
+
+********** LinkedList **********
+Insert @start: 2.7234 ms
+Insert @end: 2.3186 ms
+Insert @random: 10559.9039 ms
+Remove @start: 2.8019 ms
+Remove @end: 3.1583 ms
+Remove @random: 2880.4784 ms
+Remove byvalue: 16144.4673 ms
+

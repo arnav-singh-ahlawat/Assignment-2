@@ -14,7 +14,7 @@ public class ListTester {
         // Output goes to file
         PrintWriter writer = new PrintWriter("testrun.txt");
 
-        // Iterates through each test size N and runs performance tests for all list implementations
+        // Iterates through each test size n and runs performance tests for all list implementations
         for (int n : TEST_SIZES) {
             long testStart = System.nanoTime();
             writer.printf("+-+-+-+-+-+-+ N = %d +-+-+-+-+-+-+%n%n", n);
